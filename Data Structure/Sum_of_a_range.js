@@ -18,20 +18,20 @@
 // console.log(range(10, 1, -2));
 
 
-// const sum = (nums) => {
-//     let total =0;
-//    for (num of nums) total+= num;
-//    return total;
-// }
-
-// console.log(sum(range(10,1, -2)));
-
-
-const doscogros  = () => {
-   let  score = 20;
-   let dozen = 12;
-   let gross = 144;
-   return score + dozen + gross;
+const sum = (nums) => {
+    let total =0;
+   for (num of nums) total+= num;
+   return total;
 }
 
-console.log(doscogros()+ 123);
+console.log(sum(range(10,1, -2)));
+
+
+// const doscogros  = () => {
+//    let  score = 20;
+//    let dozen = 12;
+//    let gross = 144;
+//    return score + dozen + gross;
+// }
+
+// console.log(doscogros()+ 123);
