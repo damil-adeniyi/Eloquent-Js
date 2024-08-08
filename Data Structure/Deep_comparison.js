@@ -1,0 +1,5 @@
+// Arrow function
+ 
+const add = () => {
+
+}
